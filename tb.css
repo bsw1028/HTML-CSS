@@ -1,0 +1,101 @@
+.gowun-dodum-regular {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+div {
+    box-sizing: border-box;
+}
+
+.background
+{
+    width: 60%;
+    background-color: #93DA97;
+    height: 650px;
+}
+
+.wholetable
+{
+    width: 80%;
+    background-color: white;
+    height: 250px;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 50px;
+    
+}
+
+.items
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 50px;
+}
+
+.border-line {
+    border-top: 3px solid #93DA97;
+    border-bottom: 3px solid #93DA97;
+
+}
+
+.tb_amount_txt
+{
+    text-align: center;
+    color:#93DA97;
+    font-weight: bold;
+
+}
+.tb_price_txt
+{
+    text-align: center;
+    color:#93DA97;
+    font-weight: bold;
+
+
+}
+.tb_total_txt
+{
+    text-align: center;
+    color:#3E5F44;
+    font-weight: bold;
+
+}
+
+.totalcalc
+{
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 12px;
+    font-size: 15pt;
+    font-weight: bold;
+    color:#3E5F44;
+
+}
+
+.purchasebtn
+{
+    width: 400px;
+    height: 90px;
+    float: right;
+    font-size: 25px;
+    background-color: #3E5F44;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    position: relative;
+    top:40px;
+    cursor:pointer;
+}
+.purchasebtn:hover {
+    background-color: #091b0c;
+}
+
+.purchasebtn:active {
+    background-color: black;
+}
+/* .purchasebtn:focus {
+    background-color: black;
+} */
