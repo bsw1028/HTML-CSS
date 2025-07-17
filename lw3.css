@@ -1,0 +1,37 @@
+div {
+    box-sizing : border-box;
+  }
+  body {
+    margin : 0;
+  }
+  html {
+    line-height : 1.15; /*기본 행간 높이*/
+  }
+input
+{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.tt {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+.gugi-regular {
+    font-family: "Gugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.sendbtn {
+    margin-left: 80px;
+    border:0;
+    width:90px;
+    height:40px;
+    border-radius: 5px;
+    background-color:yellowgreen;
+    text-align: center;
+    color: white;
+}

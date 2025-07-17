@@ -1,0 +1,53 @@
+.box 
+{
+    margin : 20px; 
+    padding : 30px;
+    border-radius : 10px;
+    margin-left :400px;
+    margin-right :400px;
+    background-color:skyblue;
+    box-shadow:7px 7px 10px darkgray;
+}
+
+.container
+{
+    width: 400px;
+    height: 400px;
+}
+.header 
+{
+    width: 100%;
+    height: 10%;
+    background-color: crimson;
+}
+.left-menu
+{
+    width: 30%;
+    height: 400px;
+    background-color:darkred;
+    display: inline-block;
+    vertical-align: top;
+}
+.right
+{
+    width: 70%;
+    height: 400px;
+    background-color: beige;
+    display: inline-block;
+    vertical-align: top;
+
+} 
+
+.footer
+{
+    width: 100%;
+    height: 100px;
+    background-color:royalblue;
+    clear: both;
+
+}
+
+.writer_img
+{
+    border-radius: 50%;
+}

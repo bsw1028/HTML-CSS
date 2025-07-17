@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="tb.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Gugi&family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet">
+        <title>주문하기</title>
+    </head>
+    <body>
+        <div class="background">
+            <h2 class="gowun-dodum-regular"style="color:#3E5F44; padding-top: 10px; padding-left: 10px;font-weight:bold;">Your Shopping Cart</h2>
+            <div class="wholetable gowun-dodum-regular">
+                <table style="border-collapse: collapse;">
+                    <thead style="margin-top:50px ;font-weight:bold;color:#5E936C;">
+                        <th style="width:400px ;
+                        ">ITEM</th>
+                        <th style="width:200px;
+                        ">AMOUNT</th>
+                        <th style="width:200px;
+                        ">PRICE</th>
+                        <th style="width:200px;
+                        ">TOTAL</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border-line">
+                                <img class="items" src="/diet1.jpeg" >
+                                <p style="float: left; margin-left: 10px;"><span style="font-weight:bold ;">Salady</span><br><span style="color:#5E936C">닭가슴살 포케</span></p>
+                                <div style="clear:both"></div>
+                            </td>
+                            <td class="border-line"><p class="tb_amount_txt">1</p></td>
+                            <td class="border-line"><p class="tb_price_txt">10,000원</p></td>                            
+                            <td class="border-line"><p class="tb_total_txt">10,000원</p></td>
+                        </tr>
+                        <tr>
+                            <td class="border-line">
+                                <img class="items" src="/dongpa.png" >
+                                <p style="float: left; margin-left: 10px;"><span style="font-weight:bold ;">TianTian</span><br><span style="color:#5E936C">동파육</span></p>
+                                <div style="clear:both"></div>
+                            </td>
+                            <td class="border-line"><p class="tb_amount_txt">3</p></td>
+                            <td class="border-line"><p class="tb_price_txt">15,000원</p></td>                            
+                            <td class="border-line"><p class="tb_total_txt">45,000원</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="totalcalc">55,000원</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h4 style="font-weight: bold; position: relative; top:80px; text-decoration: underline;">Edit your Shopping cart</h4>
+                <button class="purchasebtn gowun-dodum-regular" >Choose Payment method</button>
+            </div>
+        </div>
+    </body>
+</html>

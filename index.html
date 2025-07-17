@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="main.css" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://minjoopolice.com/" style="background-color:dodgerblue;">Site A</a></li>
+                <li><a href="https://pf.kakao.com/_MmAfn" style="background-color:red ;">Site B</a></li>
+                <li><a href="https://518.org/base/main/view" style="background-color:goldenrod">Site C</a></li>
+                <li><a href="https://nodong.org/" style="background-color:grey ;">Site D</a></li>
+            </ul>
+        </nav>
+        <div style="clear:both;"></div>
+        <div>
+            <div class="container" style="background-color:gray; border-radius:10px;"><!--글쓴이 이미지, 작성시간, 제목-->
+                <div class="header" style="border-radius:5px">
+                    <img src = "whoami.png" style="margin-left:5px; margin: top 5px;; margin-bottom: 5; border-radius:50%; height: 40px; width: 40px; display:inline-block"> 
+                    <p style="display:inline-block; vertical-align:top; padding-top:3px">
+                        <span class="author">똥성우<br></span>
+                        <span class="pv_time">1시간 전</span>
+                    </p>
+                    <h4 style="display:inline-block ; vertical-align: top; margin-top:0; padding: 13px 0px 0px 8px">변소장의 청년행복주택 입주상담소.</h4>
+                </div>
+                <div class="imgbox" style="padding: 10px 10px 0px 10px ;">
+                    <img src = "presidentlee.jpeg", style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="txtbox">
+                    <p>
+                        Say A
+                    </p>
+                </div>
+                <div class="imgbox" style="padding: 10px 10px 0px 10px ;">
+                    <img src = "presidentlee.jpeg", style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="txtbox">
+                    <p>
+                        Say B
+                    </p>
+                </div>
+                <div class="imgbox" style="padding: 10px 10px 0px 10px ;">
+                    <img src = "presidentlee.jpeg", style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="txtbox">
+                    <p>
+                        Say C
+                    </p>
+                </div>
+        </div>
+    </body>
+</html>
+
+<!-- 문제 : float를 시켜버리면 붕 뜨는 거라서 마진탑을 줘도 안밀려난다(마진을 크게 주면 밀려나긴 함)
+     해결 : clear:both만 들어있는 div박스를 하나 추가하면 됨  css selector 에서 Spacebar-->

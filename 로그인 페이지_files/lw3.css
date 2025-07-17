@@ -1,0 +1,19 @@
+div {
+    box-sizing : border-box;
+  }
+  body {
+    margin : 0;
+  }
+  html {
+    line-height : 1.15; /*기본 행간 높이*/
+  }
+input
+{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.tt {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+}
