@@ -44,3 +44,39 @@
     border-radius: 5px;
     margin-top: 0.1px;
 }
+
+.flex_nav--container {
+    display: flex;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items:center;
+    height: 100px;
+    width: 100%;
+}
+
+.flex_nav--item {
+    flex-grow: 1;
+    background-color:rgb(50, 83, 129);
+    border: 3px solid rgb(50, 83, 129);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25pt;
+    color: white;
+
+
+}
+
+.flex_nav--logo {
+    flex-grow: 5;
+    background-color:rgb(50, 83, 129);
+    border: 3px solid rgb(50, 83, 129);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 25pt;
+    color: white;
+
+}
+.logo-text {
+    margin-left: 40px;
+}
