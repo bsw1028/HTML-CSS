@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+
+.bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.container {
+width: 400px; ;
+height: 410px;
+border: 1px solid rgb(161, 212, 218);
+position: relative;
+z-index: 2  ;
+border:0;
+margin-bottom: 40px;
+}
+
+
+.hd {
+    font-weight: bold;
+    font-size: 15px;
+    background-size: cover;
+    text-align: center;
+    z-index: 3 ;
+    position: relative;
+
+}
+
+.content {
+    
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+    z-index: 4  ;
+    position: relative;
+
+}
+
+@media screen and (min-width: 1201px) {
+    .container {
+      flex: 1 1 22%;
+    }
+  }
+  
+  /* 2×2 배치 */
+  @media screen and (max-width: 1200px) and (min-width: 579px) {
+    .container {
+      flex: 1 1 45%;
+    }
+  }
+  
+  /* 세로로 1×4 */
+  @media screen and (max-width: 578px) {
+    .container {
+      flex: 1 1 90%;
+    }
+  }
+
+.bgimg {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform: translateY(10px); /* 기본 위치 */
+    opacity: 0.1;
+    transition: transform 0.5s ease, opacity 0.5s;
+}
+.bgimg:hover {
+    transform: translateY(0); /* hover 시 위로 올라감 */
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+
+.pkh {
+background-image:url(https://cdn.imweb.me/upload/S20210927e14f9f0cf71bc/828357ca18c48.jpeg);
+}
+
+.cjy {
+background-image:url(https://file2.nocutnews.co.kr/newsroom/image/2022/09/05/202209052309258982_0.jpg);
+
+}
+.ojh{
+background-image:url(https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/GJEBBXFY2CTS22IBZW7VTOFSIA.jpg);
+}
+
+.ksc{
+background-image:url(https://pbs.twimg.com/media/FK9LOoyakAA31I1.jpg:large);
+}
