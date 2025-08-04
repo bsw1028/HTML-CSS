@@ -1,7 +1,6 @@
-html, body {
-    height: 100%;
+body {
+    height: auto;
 }
-
 
 * {
     margin: 0;
@@ -10,58 +9,63 @@ html, body {
     font-family:  "IBM Plex Sans KR","DM Serif Text", Arial, sans-serif;
 }
 
-  .ibm-plex-sans-kr-regular {
+.ibm-plex-sans-kr-regular {
     font-family: "IBM Plex Sans KR", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  .dm-serif-text-regular {
+.dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .dm-serif-text-regular-italic {
+.dm-serif-text-regular-italic {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
   }
-  
-.blockbox {
-    display: inline-block;
+
+
+.container {
+    width: 100%;
 }
 .uwb {
     margin-left: 0;
     margin-right: 0;
-    margin: auto;
     text-align: center;
-    display: block;
     flex:0 0 100%;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 
 .uwb_container{
     display: flex;
     width: 70%;
     height: 200px;
-    margin: auto;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .fontawesome_container {
     text-align: center;
-    flex:1 1 25%
+    flex:1 1 25%;
+    margin-bottom: 50px;
+}
+
+.fontawesome_container i {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding-top: 25px;
+    box-sizing: border-box;
 }
 
 .fasize {
     font-size: 100px;
-    background-color: black;
-    background-position: ;
-    border-radius: 100%;
-    margin: auto;
-    padding: auto;
-    text-align: center;
-    justify-items: center;
+    color: #7e9ac9;
+
 }
 .fatitle {
     font-size: 19px;
@@ -71,15 +75,17 @@ html, body {
 }
 .fainfo {
     font-size: 15px;
+    padding-bottom: 15px;
 }
 
 .bg_landing {
     background: linear-gradient(to top,#c684b3, #7e9ac9);
     width: 100%;
     height: auto;
-    display: flex;
-    z-index: 1;
+    display: block;
     flex-wrap: wrap;
+    background-clip: padding-box;
+    overflow: hidden; /* 또는 min-height 사용 */
 
 }
 
@@ -111,8 +117,12 @@ html, body {
     background-color: rgb(40, 40, 40);
     border: 0;
     border-radius: 5px;
+    transition: all 1s linear;
 }
 
+.btn:hover {
+    background-color: rgb(131, 131, 131);
+}
 
 .headlink_img {
     width: 400px;
@@ -142,11 +152,6 @@ html, body {
     vertical-align: center;
 }
 
-.whitebox_container .btn {
-    background-color: rgb(40, 40, 40);
-    color:white;
-
-}
 .wb_title {
     flex:0 0 100%;
     font-size: 20px;
@@ -156,19 +161,73 @@ html, body {
 
 .wb_inform{
     flex:0 0 100%;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    clear: both;
 }
 
-.introducingbox {
-    text-align: center;
-    width: 100%;
-    background-color: none;
-    display: flex;
-}
+
 
 .intro-img_container {
     width: 100%;
     height: 600px;
     background-color: white;
+}
+
+.newcontainer{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.newexplain {
+    text-align: center;
+    padding-top: 30px;
+    margin:auto;
+    clear: both;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.flexbox {
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.newpicgroup {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex: 0 0 50%;
+
+}
+
+.newpic {
+    width: 100%;
+    height: 100%;
+    flex-grow: 0 0 20%;
+    display: block;
+    transition: all 0.8s linear;
+
+}
+.newpic:hover {
+    border: 6px solid white;
+}
+.text-over {
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    text-align: left;
 }
