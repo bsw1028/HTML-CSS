@@ -1,0 +1,174 @@
+html, body {
+    height: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "IBM Plex Sans KR","DM Serif Text", Arial, sans-serif;
+}
+
+  .ibm-plex-sans-kr-regular {
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.blockbox {
+    display: inline-block;
+}
+.uwb {
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    text-align: center;
+    display: block;
+    flex:0 0 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.uwb_container{
+    display: flex;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+
+.fontawesome_container {
+    text-align: center;
+    flex:1 1 25%
+}
+
+.fasize {
+    font-size: 100px;
+    background-color: black;
+    background-position: ;
+    border-radius: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    justify-items: center;
+}
+.fatitle {
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.fainfo {
+    font-size: 15px;
+}
+
+.bg_landing {
+    background: linear-gradient(to top,#c684b3, #7e9ac9);
+    width: 100%;
+    height: auto;
+    display: flex;
+    z-index: 1;
+    flex-wrap: wrap;
+
+}
+
+.bg_landing div {
+    color: white;
+}
+.bg_landing button {
+    color:white;
+}
+
+.headlink_container{
+    width: 800px;
+    height: 400px;
+    margin-left: 10%;
+    padding-top: 80px;
+}
+
+.headlink_title {
+    margin-bottom: 30px;
+}
+
+.headlink_inform {
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(40, 40, 40);
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.headlink_img {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    display: block;
+    flex:0 0 auto;
+    margin: 0 auto 0px;
+}
+.whitebox_container {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex : 0 0 100%;
+    margin: 0;
+    padding: 0;
+
+    justify-content: center;  /* 가로 가운데 */
+    align-items: center;      /* 세로 가운데 (필요시) */
+}
+
+.whitebox_container div {
+    color: black;
+    text-align: center;
+    vertical-align: center;
+}
+
+.whitebox_container .btn {
+    background-color: rgb(40, 40, 40);
+    color:white;
+
+}
+.wb_title {
+    flex:0 0 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.wb_inform{
+    flex:0 0 100%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.introducingbox {
+    text-align: center;
+    width: 100%;
+    background-color: none;
+    display: flex;
+}
+
+.intro-img_container {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
